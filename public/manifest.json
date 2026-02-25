@@ -1,0 +1,17 @@
+{
+  "name": "SF Crabbing Guide",
+  "short_name": "Crabbing",
+  "description": "Ideal crabbing windows for SF Bay Area beaches.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F9FA",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2014/2014952.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

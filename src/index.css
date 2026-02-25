@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --sat: env(safe-area-inset-top);
+    --sar: env(safe-area-inset-right);
+    --sab: env(safe-area-inset-bottom);
+    --sal: env(safe-area-inset-left);
+  }
+
+  body {
+    @apply antialiased select-none touch-pan-y;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+  }
+
+  /* Ensure header respects top safe area */
+  header {
+    padding-top: var(--sat);
+  }
+
+  /* Ensure bottom of page respects bottom safe area (home indicator) */
+  footer {
+    padding-bottom: calc(3rem + var(--sab));
+  }
+}

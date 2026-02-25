@@ -1,0 +1,5 @@
+{
+  "name": "SF Crabbing Guide",
+  "description": "Find the ideal crabbing windows (2 hours before and after low tide) at popular San Francisco Bay Area beaches using real-time NOAA tide data.",
+  "requestFramePermissions": []
+}
